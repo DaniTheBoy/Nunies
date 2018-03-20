@@ -34,6 +34,10 @@ header #branding{
   width:20%;
   padding:10px;
 }
+
+.row{
+
+}
 .footer{
   background-color: #6648A7;
   color: #FFFFFF;
@@ -110,6 +114,13 @@ li.dropdown {
   float: right;
   width: 70%
 }
+
+.producto-mobiliario{
+  display: block;
+  float: right;
+  width: 70%
+}
+
 .container-producto{
   width:100%;
   margin:auto;
