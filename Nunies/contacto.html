@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto &#8902; Los Nunies</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(function(){
+    $("#IncludeHeader").load("header.html");
+    $("#IncludeFooter").load("footer.html");
+  });
+</script>
+</head>
+<body>
+  <div id="IncludeHeader"></div>
+  <div class="container-contact">
+  <div class="center-contact">
+    <h1 style="margin-left:100px">CONTACTANOS!</h1>
+    <h4 style="margin-left:100px">Háznos llegar tus comentarios y/o dudas y unos de nustros asesores te atenderá a la brevedad.</h4>
+    <form class="form-contact" action="">
+      <p>NOMBRE: </p>
+      <input type="text" name="firstname" size="30"><br>
+      <p>EMAIL: </p>
+      <input type="text" name="email" size="30">
+      <p>ASUNTO: </p>
+      <textarea rows="4" cols="50"></textarea></br>
+      <input type="submit" name="enviar" value="Enviar" />
+    </form>
+  </div>
+  <div class="sucursales">
+    <h1>SUCURSALES</h1>
+    <iframe width="700" height="300" frameborder="" style=""
+    src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCQtcni3RSbebCJ5ndllbwNjd-5A3QEhuU&center=25.782044,-109.004759&zoom=17" allowfullscreen>
+    </iframe>
+    <h3>Plaza Paseo Los Mochis</h3>
+    <h4>Blvrd. Centenario #805 pte., Centro, 81271 Los Mochis, Sin.</h4>
+  </div>
+</div>
+  <div id="IncludeFooter"></div>
+</body>
+</html>
