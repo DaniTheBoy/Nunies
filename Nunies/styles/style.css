@@ -216,10 +216,10 @@ li.dropdown {
 .container-marianne{
   position: relative;
   width: auto;
-  background-image:url("/images/mariane_background.jpg");
+  background-image:url("/nunies/images/mariane_background.jpg");
   background-position-x: center !important;
   box-sizing: border-box;
-  height: 335px;
+  height: 335px
 }
 .column-left{
   display: inline-block;
@@ -242,6 +242,42 @@ li.dropdown {
   display: block;
   float: right;
   width: 50%;
+}
+.marianne-videos{
+  position: relative;
+  display: inline-block;
+}
+/*Style Marad page*/
+.image-marad{
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  max-width: 40%;
+  height: auto;
+  min-height: 1px;
+  width:250px;
+  margin-top: 3px;
+}
+/*Style Criska page*/
+.image-criska{
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: 1px;
+  width:250px;
+  margin-top: 3px;
+}
+/*Style Shish page*/
+.image-shish{
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: 1px;
+  width:250px;
 }
 
 .full {
