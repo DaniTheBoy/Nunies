@@ -213,13 +213,25 @@ li.dropdown {
     }
 }
 /*Style Marianne page*/
+.content_wrap{
+  width: 1170px;
+  margin: 0 auto;
+}
+.content{
+  box-sizing: border-box;
+}
 .container-marianne{
   position: relative;
-  width: auto;
   background-image:url("/nunies/images/mariane_background.jpg");
   background-position-x: center !important;
   box-sizing: border-box;
-  height: 335px
+  height: 335px;
+  width: 1799px;
+  left: -299.333px;
+  padding-left: 299.333px;
+  padding-right: 298.667px;
+  overflow: hidden;
+
 }
 .column-left{
   display: inline-block;
@@ -237,15 +249,36 @@ li.dropdown {
   min-height: 1px;
   width:250px;
   margin-top: 28px;
+  margin-right: 135px;
 }
 .column-right{
-  display: block;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
   float: right;
   width: 50%;
+  margin-top: 50px;
+}
+.title-right{
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 2px;
+}
+.text_column_right{
+  margin-bottom: 20px !important;
+}
+.text_wrapper{
+
 }
 .marianne-videos{
   position: relative;
   display: inline-block;
+}
+.wrapper_videos{
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+ margin-left: 260px;
 }
 /*Style Marad page*/
 .image-marad{
@@ -263,7 +296,7 @@ li.dropdown {
   overflow: hidden;
   display: block;
   margin: auto;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   min-height: 1px;
   width:250px;
