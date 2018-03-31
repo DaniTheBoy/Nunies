@@ -456,10 +456,22 @@ li.dropdown {
         display: block;
         width: 160px;
         text-align: center;
+
     }
     .navbar>.container .navbar-brand-centered,
     .navbar>.container-fluid .navbar-brand-centered {
         margin-left: -80px;
     }
+  }
+
+  .abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #clickable
+  {
+    cursor:pointer;
   }
 }
