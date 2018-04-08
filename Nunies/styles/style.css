@@ -1,7 +1,15 @@
 .container-contact{
-  width:100%;
+  /* width:100%; */
   margin:auto;
   overflow:hidden;
+  width: 960px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;
+}
+
+@media only screen and (max-width: 479px){
+    #container-contact { width: 90%; }
 }
 
 .container-header{
