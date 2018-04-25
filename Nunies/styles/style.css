@@ -87,8 +87,7 @@ li.dropdown {
 .center-contact {
     display: block;
     float: left;
-    margin: 0 0 20px 0;
-    width: 50%;
+    width: 40%;
 }
 .form-contact{
    margin-left: 100px;
@@ -96,7 +95,7 @@ li.dropdown {
 .sucursales{
     display: block;
     float: right;
-    width: 50%;
+    width: 40%;
 
 }
 
