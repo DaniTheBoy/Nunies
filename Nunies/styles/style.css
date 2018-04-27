@@ -503,4 +503,16 @@ li.dropdown {
     margin:0;
     padding:0;
   }
+
+  .myIframe{
+    width: 600px;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 650px){
+      .myIframe {
+          max-width: 100%;
+      }
+  }
+
 }
