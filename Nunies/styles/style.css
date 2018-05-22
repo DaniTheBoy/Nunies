@@ -230,7 +230,7 @@ li.dropdown {
 }
 .container-marianne{
   position: relative;
-  background-image:url("/nunies/images/mariane_background.png");
+  background-image:url("/images/mariane_background.png");
   background-position-x: center !important;
   box-sizing: border-box;
   height: 335px;
