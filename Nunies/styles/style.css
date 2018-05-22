@@ -2,10 +2,10 @@
   /* width:100%; */
   margin:auto;
   overflow:hidden;
-  width: 960px;
-position: relative;
-margin:0 auto;
-line-height: 1.4em;
+  width: 1400px;
+  position: relative;
+  margin:0 auto;
+  line-height: 1.4em;
 }
 
 @media only screen and (max-width: 479px){
@@ -230,7 +230,7 @@ li.dropdown {
 }
 .container-marianne{
   position: relative;
-  background-image:url("/nunies/images/mariane_background.jpg");
+  background-image:url("/nunies/images/mariane_background.png");
   background-position-x: center !important;
   box-sizing: border-box;
   height: 335px;
@@ -239,7 +239,6 @@ li.dropdown {
   padding-left: 299.333px;
   padding-right: 298.667px;
   overflow: hidden;
-
 }
 .column-left{
   display: inline-block;
