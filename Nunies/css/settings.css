@@ -580,7 +580,7 @@ img.tp-slider-alternative-image	{
 /******************************
 	-	BUTTONS	-
 *******************************/
-/*
+
 .tp-button{
 	padding:6px 13px 5px;
 	border-radius: 3px;
@@ -592,7 +592,7 @@ img.tp-slider-alternative-image	{
 	font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
 	text-decoration:none;
 }
-*/
+
 .tp-button.big	{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; }
 
 
